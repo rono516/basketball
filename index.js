@@ -38,6 +38,8 @@ function addGuestByThree() {
     checkLeading()
 }
 
+// comment here
+
 let homeScoreLeadingEl = document.getElementById("home-leading")
 let guestScoreLeadingEl = document.getElementById("guest-leading")
 
