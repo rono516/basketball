@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #1B244A;
+    color: white;
+    margin-left: auto;
+    margin-top: 30vh;
+    padding-bottom: 30px;
+    /* margin-bottom: */
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    border: 2px solid black ;
+    text-align: center;
+}
+.header{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 14px;
+    font-weight: bold;
+
+
+}
+#new-game-btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    padding: 7px 14px;
+    background-color: #9AABD8;
+    cursor: pointer;
+}
+#home-score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+}
+#guest-score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+}
+.score-board{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scrore-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#score-btn{
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+  }

@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <!-- Score Font -->
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <div>
+                <h3>HOME <span id="home-leading"></span></h3>
+            </div>
+            <div class="score-board">
+                <h3 id="home-score">0</h3>
+            </div>
+            <div class="scrore-buttons">
+                <div>
+                    <button onclick="addHomeByOne()" id="score-btn">+1</button>
+                </div>
+                <div>
+                    <button onclick="addHomeByTwo()" id="score-btn">+2</button>
+                </div>
+                <div>
+                    <button onclick="addHomeByThree()" id="score-btn">+3</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>GUEST <span id="guest-leading"></span></h3>
+            </div>
+            <div class="score-board">
+                <h3 id="guest-score">0</h3>
+            </div>
+            <div class="scrore-buttons">
+                <div>
+                    <button onclick="addGuestByOne()" id="score-btn">+1</button>
+                </div>
+                <div>
+                    <button onclick="addGuestByTwo()" id="score-btn">+2</button>
+                </div>
+                <div>
+                    <button onclick="addGuestByThree()" id="score-btn">+3</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="header">
+        <button onclick="resetGame()" id="new-game-btn">NEW GAME</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
